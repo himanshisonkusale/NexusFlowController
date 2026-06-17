@@ -299,17 +299,17 @@ histogram_quantile(0.95, http_request_duration_ms_bucket)
 
 ---
 
-## 👩‍💻 Author
-
-**Himanshi Sonkusale**
-[github.com/himanshisonkusale](https://github.com/himanshisonkusale)
-
 ---
 
 <div align="center">
 
+### 👩‍💻 Built by [Himanshi Sonkusale](https://github.com/himanshisonkusale)
+
+[![GitHub](https://img.shields.io/badge/GitHub-himanshisonkusale-00ff88?style=for-the-badge&logo=github&logoColor=white)](https://github.com/himanshisonkusale)
+
 *471 RPS • p95 11.58ms • 3-Node Cluster • Circuit Breaker • Live Dashboard*
 
-⭐ Star this repo if you found it useful!
+⚡ Real engineering. Real benchmarks. Real learning.
+
 
 </div>
