@@ -124,6 +124,30 @@ Real-time dashboard with:
 
 ---
 
+## 📁 Project Structure
+
+```
+NexusFlowController/
+├── src/
+│   ├── server.js                 # Express server
+│   ├── middleware/
+│   │   └── rateLimiter.js        # Core rate limiting logic
+│   └── utils/
+│       ├── circuitBreaker.js     # Circuit breaker implementation
+│       ├── metrics.js            # Prometheus metrics
+│       └── tierConfig.js        # Tier configuration
+├── dashboard/                    # React live dashboard
+│   └── src/
+│       └── App.js
+├── docker-compose.yml            # Container orchestration
+├── Dockerfile                    # Node.js container config
+├── nginx.conf                    # Load balancer config
+├── prometheus.yml                # Metrics scraping config
+└── load-test.js                  # k6 load test script
+```
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology | Purpose |
@@ -150,7 +174,7 @@ Real-time dashboard with:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/NexusFlowController.git
+git clone https://github.com/himanshisonkusale/NexusFlowController.git
 cd NexusFlowController
 
 # 2. Start all backend services
@@ -275,27 +299,19 @@ histogram_quantile(0.95, http_request_duration_ms_bucket)
 
 ---
 
-## 📁 Project Structure
+## 👩‍💻 Author
 
-```
-NexusFlowController/
-├── src/
-│   ├── server.js                 # Express server
-│   ├── middleware/
-│   │   └── rateLimiter.js        # Core rate limiting logic
-│   └── utils/
-│       ├── circuitBreaker.js     # Circuit breaker implementation
-│       ├── metrics.js            # Prometheus metrics
-│       └── tierConfig.js        # Tier configuration
-├── dashboard/                    # React live dashboard
-│   └── src/
-│       └── App.js
-├── docker-compose.yml            # Container orchestration
-├── Dockerfile                    # Node.js container config
-├── nginx.conf                    # Load balancer config
-├── prometheus.yml                # Metrics scraping config
-└── load-test.js                  # k6 load test script
-```
+<div align="center">
+
+**Himanshi Sonkusale**
+
+[![GitHub](https://img.shields.io/badge/GitHub-himanshisonkusale-00ff88?style=for-the-badge&logo=github)](https://github.com/himanshisonkusale)
+
+*Computer Science Student | Backend & Distributed Systems Enthusiast*
+
+> *"Built this project to deeply understand how production-grade systems handle traffic at scale — from atomic Redis operations to live chaos testing."*
+
+</div>
 
 ---
 
