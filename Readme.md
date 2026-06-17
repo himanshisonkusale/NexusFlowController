@@ -301,23 +301,12 @@ histogram_quantile(0.95, http_request_duration_ms_bucket)
 
 ## 👩‍💻 Author
 
-<div align="center">
-
 **Himanshi Sonkusale**
-
-[![GitHub](https://img.shields.io/badge/GitHub-himanshisonkusale-00ff88?style=for-the-badge&logo=github)](https://github.com/himanshisonkusale)
-
-*Computer Science Student | Backend & Distributed Systems Enthusiast*
-
-> *"Built this project to deeply understand how production-grade systems handle traffic at scale — from atomic Redis operations to live chaos testing."*
-
-</div>
+[github.com/himanshisonkusale](https://github.com/himanshisonkusale)
 
 ---
 
 <div align="center">
-
-**Built for production-grade distributed systems**
 
 *471 RPS • p95 11.58ms • 3-Node Cluster • Circuit Breaker • Live Dashboard*
 
