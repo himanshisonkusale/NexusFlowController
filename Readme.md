@@ -299,8 +299,6 @@ histogram_quantile(0.95, http_request_duration_ms_bucket)
 
 ---
 
----
-
 <div align="center">
 
 ### 👩‍💻 Built by [Himanshi Sonkusale](https://github.com/himanshisonkusale)
